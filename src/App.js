@@ -19,12 +19,12 @@ class App extends React.Component {
         Show emoji :
         <input
           type="checkbox"
-          //   onChange={(e) => this.setState({ showEmoji : !this.state.showEmoji })}
-          onChange={this.setState((state) => {
-            return {
-              showEmoji: !state.showEmoji,
-            };
-          })}
+          onChange={(e) => this.setState({ showEmoji: !this.state.showEmoji })}
+          // onChange={this.setState((state) => {
+          //   return {
+          //     showEmoji: !state.showEmoji,
+          //   };
+          // })}
         />
         <input
           type="submit"
